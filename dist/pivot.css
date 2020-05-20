@@ -1,20 +1,53 @@
-.pvtUi { color: #333; }
+.pvtUi { 
+    color: #333; 
+    width: 100%;
+    
+}
 
 
 table.pvtTable {
-    font-size: 8pt;
+    font-size: 10pt;
     text-align: left;
     border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
-table.pvtTable thead tr th, table.pvtTable tbody tr th {
+table.pvtTable  {
     background-color: #e6EEEE;
-    border: 1px solid #CDCDCD;
-    font-size: 8pt;
+    border-radius: 5px;
+    font-size: 10pt;
     padding: 5px;
+    
 }
 
-table.pvtTable .pvtColLabel {text-align: center;}
-table.pvtTable .pvtTotalLabel {text-align: right;}
+thead, table.pvtTable tbody tr th {
+    border-bottom: 1px solid #CDCDCD;
+}
+
+th.pvtAxisLabel {
+    text-indent: 8%;
+}
+
+th.pvtRowLabel {
+    border-bottom: 1px solid #CDCDCD; 
+    text-indent: 8%;
+    width: 20%;
+}
+
+table.pvtTable .pvtColLabel {
+    text-align: center;
+    width: 10%
+}
+
+table.pvtTable .pvtTotalLabel {
+    text-align: center;
+}
+
+th.pvtTotalLabel.pvtColTotalLabel {
+    border-bottom-left-radius: 5px;
+    border-bottom: none !important;
+}
+
 
 table.pvtTable tbody tr td {
     color: #3D3D3D;
@@ -23,9 +56,18 @@ table.pvtTable tbody tr td {
     border: 1px solid #CDCDCD;
     vertical-align: top;
     text-align: right;
+    
 }
 
-.pvtTotal, .pvtGrandTotal { font-weight: bold; }
+td.pvtVal:hover, .pvtTotal:hover, .pvtGrandTotal:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.pvtTotal, .pvtGrandTotal { 
+    font-weight: bold; 
+}
+
 
 .pvtVals { text-align: center; white-space: nowrap;}
 .pvtRowOrder, .pvtColOrder {
@@ -111,4 +153,6 @@ table.pvtTable tbody tr td {
 
 .pvtCheckContainer p{ margin: 5px; }
 
-.pvtRendererArea { padding: 5px;}
+.pvtRendererArea { 
+    padding: 5px;
+}

@@ -26,17 +26,27 @@ thead, table.pvtTable tbody tr th {
 
 th.pvtAxisLabel {
     text-indent: 8%;
+    font-weight: normal
 }
 
 th.pvtRowLabel {
     border-bottom: 1px solid #dee2e6;; 
     text-indent: 8%;
     width: 20%;
+    font-weight: normal
+}
+
+th.pvtColLabel {
+    font-weight: normal
+}
+
+th.pvtTotalLabel {
+    font-weight: normal
 }
 
 table.pvtTable .pvtColLabel {
     text-align: center;
-    width: 10%
+    width: 10%,
 }
 
 table.pvtTable .pvtTotalLabel {

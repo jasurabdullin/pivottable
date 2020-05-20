@@ -26,7 +26,7 @@ thead, table.pvtTable tbody tr th {
 
 th.pvtAxisLabel {
     text-indent: 8%;
-    font-weight: normal
+    font-weight: normal;
 }
 
 th {
@@ -38,15 +38,15 @@ th.pvtRowLabel {
     border-bottom: 1px solid #dee2e6;; 
     text-indent: 8%;
     width: 20%;
-    font-weight: normal
+    font-weight: normal;
 }
 
 th.pvtColLabel {
-    font-weight: normal
+    font-weight: normal;
 }
 
 th.pvtTotalLabel {
-    font-weight: normal
+    font-weight: normal;
 }
 
 table.pvtTable .pvtColLabel {

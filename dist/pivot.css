@@ -29,6 +29,10 @@ th.pvtAxisLabel {
     font-weight: normal
 }
 
+th {
+    font-weight: normal !important;
+}
+
 th.pvtRowLabel {
     border-bottom: 1px solid #dee2e6;; 
     text-indent: 8%;
